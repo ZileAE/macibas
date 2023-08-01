@@ -1,0 +1,71 @@
+
+h1{
+    
+}
+header {
+    text-align: center;
+    font-size:100%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: #333;
+    overflow: hidden;
+}
+header a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+header a:hover {
+    background-color: #e01212;
+    color: black;
+  }
+header a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+.centered {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.main {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; 
+    padding: 0;
+    font-size: 14pt;
+}
+.plavai {
+    display: flex; 
+    flex-direction: row;
+}
+.blocks {
+    display: block;
+}
+.fullwidth {
+    width: 100%;
+    margin: 10px;
+    height: 450px;
+}
+.toRight {
+    display: flex; 
+    flex-direction: row-reverse;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(44, 13, 182);
+    color: white;
+}
+
+.w3-content,.w3-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+*,*:before,*:after {
+    box-sizing: inherit;
+}

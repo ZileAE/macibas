@@ -5,57 +5,145 @@
     <title>HTML&CSS</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="margin: 0; padding: 0;">
+<body class="main">
 
     <!-- Header -->
-    <header style="background-color: aliceblue; position: sticky; top: 0; display: flex; flex-direction: row; justify-content: space-between;">
+    <header>
         <a href="#pavasaris">Šeit ir virsraksts, kurš paliek galvenes daļā.</a>
         <div>
             <a href="#vasara">Vasara</a>
             <a href="#plava">Uzdevumi</a>
         </div>
     </header>
-
-    <div id="pavasaris">
+    <div>
+        <img class="fullwidth" src="resources/Pavasaris.jpg" alt="Pavasaris">
+    </div>
+    <div class="w3-content">
+        <!--saturs-->
+    <div id="pavasaris" class="plavai">
         <img src="resources/Pavasaris.jpg" alt="Pavasaris">
+        <div>
             <h1>Pavasaris</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, consequuntur a reiciendis nam ratione
+                velit voluptates nisi consequatur obcaecati facilis exercitationem numquam dicta modi ea corporis
+                adipisci magnam debitis! Vero!
+            </p>
         </div>
-        <div id="vasara">
-            <img src="resources/Vasara.jpg" alt="Vasara">
-            <h1>Šeit ir apraksts, kuram ir jāatrodas bildei kreisajā pusē.</h1><br>
+    </div>
+    <div id="vasara" class="toRight">
+        <img src="resources/Vasara.jpg" alt="Vasara">
+        <div>
+            <h1><!--Šeit ir apraksts, kuram ir jāatrodas bildei kreisajā pusē.-->Vasara</h1><br>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                It has survived not only five centuries, but also the leap into electronic typesetting,
+                remaining essentially unchanged.
+                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+                Ipsum.
+                Contrary to popular belief, Lorem Ipsum is not simply random text.
+                It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more
+                obscure Latin words,
+                consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
+                literature,
+                discovered the undoubtable source.
+                Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of
+                Good
+                and Evil) by Cicero, written in 45 BC.
+                This book is a treatise on the theory of ethics, very popular during the Renaissance.
+                The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+            </p>
         </div>
+    </div>
 
-        <div id="plava" style="display: flex; flex-direction: row;">
-            <div style="display: block;">
-                <img style="display: block; width:100%" src="resources/Plava.jpg" alt="Plava">
-            </div>
-            <div style="display: block;">
-                <h1>Šeit apraksts, kuram ir jāatrodas bildes labajā pusē.</h1>
-            </div>
+    <div id="plava" class="plavai">
+        <img src="resources/Plava.jpg" alt="Plava">
+        <div>
+            <h1><!--Šeit apraksts, kuram ir jāatrodas bildes labajā pusē.-->Plava</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                It has survived not only five centuries, but also the leap into electronic typesetting,
+                remaining essentially unchanged.
+                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+                Ipsum.
+                Contrary to popular belief, Lorem Ipsum is not simply random text.
+                It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more
+                obscure Latin words,
+                consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
+                literature, discovered the undoubtable source.
+                Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of
+                Good and Evil) by Cicero, written in 45 BC.
+                This book is a treatise on the theory of ethics, very popular during the Renaissance.
+                The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+            </p>
         </div>
+    </div>
+    <div>
 
-        <!-- Exercises -->
-        <div id="exercises">
-            <h1>Uzdevumi</h1><br>
-            <p>Nomaini visiem tekstiem fontu.</p>
-            <p>Sakārto bilžu un tekstu novietojumu.</p>
-            <p>Pieliec tekstu zem virsrakstiem.</p>
-            <p>Pārtaisi uzdevumu sadaļu, izmantojot HTML atbilstošu tagu, lai izveidotu sarakstu.</p>
-            <p>Pieliec stilu header daļai, lai tā atgādinātu header.</p>
-            <p>Pieliec stilu footer daļai, lai teksts būtu centrā un elements izskatītos pēc footer.</p>
-            <p>Augšējo bildi formatē tā, lai tiktu aizņemts viss ekrāna platums.</p>
-            <p>Pievieno karti.</p>
-            <p>Pievieno tabulu, kurai būtu vismaz 2 kolonnas un 3 rindas.</p>
-        </div>
+        <p></p>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d140399.706859582!2d23.546732706446146!3d56.6442429976328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ef254b6eed168f%3A0x400cfcd68f31c60!2sJelgava!5e0!3m2!1slv!2slv!4v1690478444704!5m2!1slv!2slv"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+    <div>
+        <table border="1" celpadding="0" celspacing="0">
+            <tr>
+                <th>Pirma kolonna</th>
+                <th>Otra kolonna</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+        </table>
+    </div>
 
-        <!-- Footer -->
-        <footer>
-            <p>Šeit ir tukšs footers</p>
-            <p>Šeit ir tukšs footers vēlreiz</p>
-        </footer>
+    <!-- Exercises -->
+    <div id="exercises">
+        <h1>Uzdevumi</h1><br>
+        <ol>
+            <li>Nomaini visiem tekstiem fontu.</li>
+            <!-- DONE -->
+            <li>Sakārto bilžu un tekstu novietojumu.</li>
+            <!-- DONE -->
+            <li>Pieliec tekstu zem virsrakstiem.</li>
+            <!-- DONE -->
+            <li>Pārtaisi uzdevumu sadaļu, izmantojot HTML atbilstošu tagu, lai izveidotu sarakstu.</li>
+            <!-- DONE -->
+            <li>Pieliec stilu header daļai, lai tā atgādinātu header.</li>
+            <!-- DONE -->
+            <li>Pieliec stilu footer daļai, lai teksts būtu centrā un elements izskatītos pēc footer.</li>
+            <!-- DONE -->
+            <li>Augšējo bildi formatē tā, lai tiktu aizņemts viss ekrāna platums.</li>
+            <!-- DONE -->
+            <li>Pievieno karti.</li>
+            <!-- DONE -->
+            <li>Pievieno tabulu, kurai būtu vismaz 2 kolonnas un 3 rindas.</li>
+            <!-- DONE -->
+        </ol>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Šeit ir tukšs footers</p>
+        <p>Šeit ir tukšs footers vēlreiz</p>
+    </footer>
 
 </body>
+
 
 </html>
