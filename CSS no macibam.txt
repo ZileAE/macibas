@@ -1,0 +1,50 @@
+header {
+    background-color: aliceblue;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 3rem;
+    align-items: center;
+}
+
+.d-block {
+    display: block;
+}
+
+body {
+    margin: 0; 
+    padding: 0;
+}
+
+.w-100 {
+    width:100%;
+}
+
+* {
+    font-family: "Lucida Handwriting", "Courier New", monospace;
+}
+
+.d-flex-f-d-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.d-flex-f-d-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+footer {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.w-50 {
+    width:50%;
+}
+
+article {
+    margin: 10px,12px;
+}
